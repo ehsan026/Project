@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>login</title>
+    <style>
+        *{
+            @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+        }
+        body{
+            background: rgb(86, 86, 177);
+        }
+        #container{
+            width: 300px;
+            padding: 20px;
+            margin: auto;
+            margin-top: 250px;
+            background: white;
+        }
+        #container h1{
+            margin-bottom: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+        #container input form{
+            width: 100%;
+            padding: 20px;
+          
+            
+        }
+        #container form div{
+            margin-top: 8px;
+            border: 1px solid red;
+        }
+        #container form .material-icons{
+            width: 40px;
+            border: 1px solid red ;
+            color: rgb(126, 13, 155);
+            text-align: center;
+            height: 35px;
+            padding-top: 4px;
+        }
+        #container button{
+            width: 100%;
+            margin-top: 20px;
+            padding: 8px;
+            background: rebeccapurple;
+            color: wheat;
+        }
+        #container form input{
+            width: calc(100% - 40px);
+            float: right;
+            height: 35px;
+            padding-left: 10px;
+            border: none;
+        
+            
+        }
+    </style>
+</head>
+<body>
+   <div id="container">
+    <h1>Login</h1>
+    <form>
+        <div>
+            <span class="material-icons">person</span>
+            <input type="text" placeholder="username">
+        </div>
+        <div>
+            <span class="material-icons"> lock</span>
+           <input type="password" placeholder="password">
+        </div>
+        <button>Submit</button>
+    </form>
+   </div> 
+</body>
+</html>

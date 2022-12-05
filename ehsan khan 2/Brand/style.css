@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    height: 100vh;
+}
+
+#Box{
+    background: white;
+    width: 300px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+#Box #ImgBox{
+    text-align: center;
+
+}
+
+#Box #ImgBox img{
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 100%;
+}
+
+#Box h2{
+    font-size: 25px;
+    margin: 10px 0 5px;
+}
+
+#Box hr{
+    height: 3px;
+    background: red;
+    border: none;
+    margin-bottom: 15px;
+}
+
+#Box form div{
+    border: 1px solid red;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#Box form div span{
+    border-right: 1px solid red;
+    height: 100%;
+    width: 40px;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 25px;
+    color: red;
+}
+
+#Box form div input:not(#ek){
+    width: calc(100% - 40px);
+    float: right;
+    height: 100%;
+    padding-left: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+#Box form div input:focus > span{
+    color: black;
+}
+
+#Box form button{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: rgb(255, 11, 11);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+#Box form button:active{
+    transform: scale(.95);
+}

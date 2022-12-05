@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background: rgb(10, 6, 6);
+}
+
+#box {
+    width: 250px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 200px;
+    background: white;
+    border-radius: 5px;
+
+}
+
+span {
+    /* border: 1px solid red; */
+    width: 40px;
+    height: 35px;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    background: rgb(10, 6, 6);
+    color: white;
+
+
+}
+
+input {
+    width: calc(100% - 40px);
+    float: right;
+    height: 35px;
+    margin-bottom: 10px;
+    color: white;
+
+
+}
+
+
+button {
+    width: 100%;
+    height: 35px;
+    background: rgb(59, 167, 59);
+    color: white;
+    border: none;
+    font-size: 18px;
+    
+
+}
+
+
+
+#facebook {
+    width: 45%;
+    height: 35px;
+    background: #3b5998;
+    color: white;
+    font-size: 5px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 10px;
+}
+
+#insta {
+    width: 50%;
+    color: white;
+    background: #b81a49;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 10px;
+
+}
+
+#khan {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#box h1 {
+    margin-bottom: 20px;
+}
+#ek{
+    text-align: center;
+    margin-bottom: 5px;
+}
+#lucifer{
+    margin-bottom: 20px;
+}
+#star{
+    text-align: center;
+    direction: none;
+    font-size: 10px;
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background: #404258;
+}
+
+#Box{
+    background: #ffffff;
+    width: 450px;
+    padding: 25px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#Box h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #404258;
+}
+
+#Box #Name{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Box #Name div{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+#Box div label{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+#Box input, #Box textarea{
+    height: 30px;
+    outline: none;
+    padding-left: 10px;
+    width: 100%;
+}
+
+#Box .inputs{
+    margin-bottom: 10px;
+}
+
+#Box textarea{
+    resize: none;
+    height: 100px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#Box button{
+    width: 100%;
+    margin-top: 15px;
+    padding: 8px;
+    border: none;
+    background: #404258;
+    color: white;
+    border-radius: 3px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#Box #Phone, #Box #TextArea{
+    display: flex;
+    flex-direction: column;
+}
